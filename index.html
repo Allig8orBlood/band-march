@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <script type="text/javascript" src="nasty.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="nasty_shop.css">
+  <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script src="sss/sss.min.js"></script>
+  <link rel="stylesheet" href="sss/sss.css" type="text/css" media="all">
+  <script>
+  jQuery(function($) {
+    $('.slider').sss();
+  });
+  </script>
+  <title>Nasty Online Shop</title>
+</head>
+<body>
+  <header>
+    <div class="grid">
+      <div class="grid_item1">
+        <img src="pics/IMG_2985.jpg" class="img1">
+      </div>
+      <div class="grid_item2">
+        <img src="logos/search.png" class="header_logo">
+        <img src="logos/shopping_cart.png" class="header_logo">
+      </div>
+    </div>
+    <nav>
+      <ul>
+        <li class="link"><a href="" class="link">HOME</a></li>
+        <li class="link"><a href="" class="link">PRODUCTS</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="slider">
+    <img src="pics/beanieslideshow_1944x.jpg" class="slide_img">
+    <img src="pics/burninghouse4_1944x.jpg" class="slide_img">
+    <img src="pics/aggropunksweater2_1944x.jpg" class="slide_img">
+    <img src="pics/indefeatback_1944x.jpg" class="slide_img">
+  </div>
+  <div class="wrapper">
+    <footer>
+      <div class="site-footer_section1">
+        <h4>FOLGE UNS</h4>
+        <a href="https://ja-jp.facebook.com/getnasty/"><img src="logos/logo_FB.png" class="logo"></a>
+        <a href="https://twitter.com/nastylc"><img src="logos/logo_twitter.png" class="logo"></a>
+        <a href="https://www.instagram.com/nasty_lc/"><img src="logos/logo_GRAM.png" class="logo"></a>
+        <a href="https://www.youtube.com/channel/UCN127aWNt0u-Kn41YkBMyZQ"><img src="logos/logo_youtube.png" class="logo"></a>
+      </div>
+      <div class="site-footer_section2">
+        <h4>INFO</h4>
+        <ul>
+          <li><a href="">Refund Policy</a></li>
+          <li><a href="">Privacy Policy</a></li>
+          <li><a href="">Terms of Service</a></li>
+          <li><a href="">Legal Notice</a></li>
+        </ul>
+      </div>
+    </footer>
+  </div>
+  <div class="footer_wrapper">
+    <div class="footer_copyright">
+      <div class="footer-item_copyright">
+        <p>&copy;2018,<a href="">NASTY ONLINE SHOP</a>,E-Commerce von Shopify</p>
+      </div>
+      <div class="payment-icons">
+        <ul>
+          <li><img src="logos/poop.png" class="payment_logo"></li>
+          <li><img src="logos/poop.png" class="payment_logo"></li>
+          <li><img src="logos/poop.png" class="payment_logo"></li>
+          <li><img src="logos/poop.png" class="payment_logo"></li>
+          <li><img src="logos/poop.png" class="payment_logo"></li>
+          <li><img src="logos/poop.png" class="payment_logo"></li>
+          <li><img src="logos/poop.png" class="payment_logo"></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</body>
+<html>
