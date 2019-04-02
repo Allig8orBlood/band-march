@@ -1,6 +1,5 @@
-
 html {
-  font-family: Asul,serif;
+  font-family: verdana,serif;
 }
 body {
   margin: 0px;
@@ -66,13 +65,14 @@ nav li:hover {
   height: 28px;
 }
 .wrapper {
-  background-color: black;
+  background-color: #222222;
+  padding-top: 26px;
 }
 footer {
   display: flex;
   margin: 0 auto;
   max-width: 1140px;
-  background-color: black;
+  background-color: #222222;
 }
 .site-footer_section1 {
   flex: 1;
@@ -98,12 +98,12 @@ h4 {
   color: rgba(255,255,255,0.6);
 }
 .footer_wrapper {
-  background-color: black;
-  border-top: solid 1px gray;
+  background-color: #222222;
+  border-top: solid 1px #2F2F2F;
 }
 .footer_copyright {
   color: white;
-  background-color: black;
+  background-color: #222222;
   /* border-top: solid 1px gray; */
   padding: 20px 0;
   /* text-align: center; */
@@ -130,8 +130,8 @@ h4 {
   display: inline-block;
 }
 .payment_logo {
-  width: 20px;
-  height: 20px;
+  width: 32px;
+  height: 32px;
 }
 
 /* スマホ用CSS */
@@ -144,13 +144,24 @@ h4 {
    .slide_img {
       height: auto;
    }
+   .wrapper {
+      padding-top: 0;
+   }
    .sns_links {
       padding-left: 12px;
+   }
+   .logo {
+      width: 22px;
+      height: 22px;
    }
    .site-footer_section2 {
       margin-left: 22px;
    }
    .footer_copyright {
+      display: block;
       padding: 20px;
+   }
+   .payment-icons {
+      margin-top: 20px;
    }
 }
