@@ -19,7 +19,7 @@ li {
   padding: 20px;
 }
 .grid_item1 {
-  flex: 3;
+  flex: 4;
 }
 .grid_item2 {
   flex: 2;
@@ -71,7 +71,7 @@ nav li:hover {
 footer {
   display: flex;
   margin: 0 auto;
-  width: 1140px;
+  max-width: 1140px;
   background-color: black;
 }
 .site-footer_section1 {
@@ -109,7 +109,7 @@ h4 {
   /* text-align: center; */
   display: flex;
   margin: 0 auto;
-  width: 1140px;
+  max-width: 1140px;
 }
 .footer_copyright p {
   margin: 0;
@@ -132,4 +132,25 @@ h4 {
 .payment_logo {
   width: 20px;
   height: 20px;
+}
+
+/* スマホ用CSS */
+
+@media (max-width: 767px) {
+   h4 {
+      font-size: 22px;
+      margin-top: 22px;
+   }
+   .slide_img {
+      height: auto;
+   }
+   .sns_links {
+      padding-left: 12px;
+   }
+   .site-footer_section2 {
+      margin-left: 22px;
+   }
+   .footer_copyright {
+      padding: 20px;
+   }
 }
